@@ -1,0 +1,11 @@
+.\main.o: main.c
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\main.o: ..\inc/lm3s811.h
+.\main.o: ST7735.h
+.\main.o: Systick.h
+.\main.o: Switch.h
+.\main.o: LCD.h
+.\main.o: PWM.h
+.\main.o: PulseCount.h

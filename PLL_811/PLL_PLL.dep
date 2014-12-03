@@ -1,0 +1,45 @@
+Dependencies for Project 'PLL', Target 'PLL': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4DF13BE0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x547EDC8B)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x546314AC)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86E14)
+I (..\inc/lm3s811.h)(0x4C6193FE)
+I (ST7735.h)(0x53CA7C24)
+I (Systick.h)(0x547D33A2)
+I (Switch.h)(0x547D692F)
+I (LCD.h)(0x547D69B0)
+I (PWM.h)(0x4E8DB634)
+I (PulseCount.h)(0x547EB538)
+F (.\ST7735.c)(0x547D0298)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x546314AC)
+I (ST7735.h)(0x53CA7C24)
+I (..\inc/lm3s811.h)(0x4C6193FE)
+F (.\ST7735.h)(0x53CA7C24)()
+F (.\Switch.c)(0x547D8ABA)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\switch.o --omf_browse .\switch.crf --depend .\switch.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x546314AC)
+I (..\inc/lm3s811.h)(0x4C6193FE)
+I (Systick.h)(0x547D33A2)
+F (.\Switch.h)(0x547D692F)()
+F (.\Systick.c)(0x547D5E74)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x546314AC)
+I (..\inc/lm3s811.h)(0x4C6193FE)
+F (.\Systick.h)(0x547D33A2)()
+F (.\LCD.c)(0x547D7969)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x546314AC)
+I (..\inc/lm3s811.h)(0x4C6193FE)
+I (ST7735.h)(0x53CA7C24)
+F (.\LCD.h)(0x547D69B0)()
+F (.\PWM.c)(0x547ED718)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (..\inc/lm3s811.h)(0x4C6193FE)
+F (.\PWM.h)(0x4E8DB634)()
+F (.\PulseCount.c)(0x547ED60C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\pulsecount.o --omf_browse .\pulsecount.crf --depend .\pulsecount.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x546314AC)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C86E14)
+I (..\inc/lm3s811.h)(0x4C6193FE)
+F (.\PulseCount.h)(0x547EB538)()
